@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosię</title>
+    <style>
+        .background {
+            background-color: pink;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+<!--Tutaj trzeba wyrównać bułkę przy użyciu css-->
+<img src="Bulka.png" alt="Bułka" width="400">
+    <h1 class="background">Ciasto uniwersalne by Joshua Weissman</h1>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>CZAS PRZYGOTOWANIA:</th>
+                <th>CZAS PIECZENIA:</th>
+                <th>PORCJA:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2 godziny</td>
+                <td>20 minut</td>
+                <td>9 bułek</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <hr>
+    <h2>Składniki</h2>
+    <h3>Ciasto</h3>
+        <li>125ml mleka w temp. 38<sup>o</sup>C</li>
+        <li>125ml przegotowanej wody w temp. 38<sup>o</sup>C</li>
+        <li>9g suszonych drożdży instant</li>
+        <li>525g mąki pszennej <em>Typ 750</em></li>
+        <li>13g białego cukru</li>
+        <li>9g soli morskiej</li>
+        <li>1 duże jajko</li>
+        <li>1 duże żółtko</li>
+        <li>35g masła o temp. pokojowej</li>
+    <h3>Tangzhong</h3>
+        <li>18g mąki pszennej <em>Typ 500</em></li>
+        <li>30ml filtrowanej wody</li>
+        <li>60ml mleka</li>
+    <h2>Wykonanie</h2>
+    <div>
+        <p>1. Zrób <em>Tangzhong</em>. W niewielkim rondelku wymieszaj rózgą kuchenną mąkę, wodę i mleko, aż dobrze się połączą. Podgrzewaj na średnim ogniu, cały czas mieszając, aż powstanie gęsta pasta. Przełóż do małej miski i odstaw do wystygnięcia.</p>
+        <p>2. W żaroodpornej misce wymieszaj ze sobą mleko i wodę, dodaj drożdże. Przykryj ściereczką i odstaw na 10min.</p>
+        <p>3. Wymieszaj dokładnie mąkę, cukier i sól. Dodawaj po kolei mieszankę drożdży, jajko i żółtko. Gdy składniki się połączą, dodaj <em>Tangzhong</em>. Wyrabiaj 3-4 minuty.</p>
+        <p>4. Dodaj masło, wyrabiaj kolejne 2 minuty.</p>
+        <p>5. Odstaw ciasto do wyrastania w temperatrze pokojowej na ok. 1,5 godziny.</p>
+        <p>6. Uderz ciasto pięścią, uformuj bułki i piecz w 190<sup>o</sup>C przez 20 minut. </p>
+    </div>
+    <br>
+    <hr>
+    <form action="sever.php">    
+        <fieldset>
+            <legend>Zostaw komentarz</legend>
+            Imię:<br>
+            <input type="text" name="nick" value="" placeholder="Imię"><br>
+            Komentarz:<br>
+            <input type="text" name="comment" value="" placeholder="Dodaj komentarz"><br><br>
+            <input type="radio" name="options"> Pierwszy raz na stronie<br>
+            <input type="radio" name="options"> Stały bywalec<br><br>
+            <input type="submit" value="Wyślij">
+        </fieldset>
+    </form>
+    </body>
+    </html>
